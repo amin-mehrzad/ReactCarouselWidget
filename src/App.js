@@ -27,7 +27,7 @@ function App() {
     // </div>
     <Router>
       <Route  path="/widget" component={VibeCheckWidget}/>
-      <Route  path="/carousel" component={VibeCheckCarousel}/>
+      <Route  path="/carousel/:websiteID" component={VibeCheckCarousel}/>
     </Router>
 
   );
